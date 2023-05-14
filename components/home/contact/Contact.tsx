@@ -82,13 +82,12 @@ export const Contact = () => {
           <Reveal width="100%">
             <form autoComplete="false" className={styles.contantForm} ref={form} onSubmit={sendEmail}>
               <div className={styles.inputBox}>
-                <input type="text" placeholder="Full Name" autoComplete="off" name="to_name" />
-                <input type="email" placeholder="Email Address" autoComplete="false" name="from_name" />
+                <input type="text" placeholder="Full Name" autoComplete="off" name="to_name" required />
+                <input type="email" placeholder="Email Address" autoComplete="false" name="from_name" required />
               </div>
               <textarea placeholder="Your Message"
                 autoComplete="false"
-
-
+                required
                 name="message"
                 value={message}
                 onChange={handleMessageChange}></textarea>
