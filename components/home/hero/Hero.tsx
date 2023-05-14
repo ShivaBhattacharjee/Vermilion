@@ -8,19 +8,19 @@ export const Hero = () => {
       <div className={styles.copyWrapper}>
         <Reveal>
           <h1 className={styles.title}>
-            Hey, I'm Shiva<span>.</span>
+            Hey, I&apos;m Shiva<span>.</span>
           </h1>
         </Reveal>
         <Reveal>
           <h2 className={styles.subTitle}>
-            I'm a <span>Full Stack Developer</span>
+            I&apos;m a <span>Full Stack Developer</span>
           </h2>
         </Reveal>
         <Reveal>
           <p className={styles.aboutCopy}>
             Crafting meaningful websites that tell your story🎨
             <br />
-            Let's connect!
+            Let&apos;s connect!
           </p>
         </Reveal>
         <Reveal>
