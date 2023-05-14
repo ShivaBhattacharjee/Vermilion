@@ -7,6 +7,7 @@ import { ProjectModal } from "./ProjectModal";
 import styles from "./projects.module.scss";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
+import Image from "next/image";
 interface Props {
   modalContent: JSX.Element;
   description: string;
@@ -58,9 +59,10 @@ export const Project = ({
           onClick={() => setIsOpen(true)}
           className={styles.projectImage}
         >
-          <LazyLoadImage
+          <Image
             src={imgSrc}
-            effect="blur"
+            layout="fill"
+            quality={40}
             alt={`An image of the ${title} project.`}
           />
         </div>
