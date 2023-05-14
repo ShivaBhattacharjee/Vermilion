@@ -14,7 +14,7 @@ export const Heading = () => {
   let toggleref = useRef();
   useEffect(() => {
     let handler = (e: MouseEvent) => {
-      if (!toggleref.current.contains(e.target as Node)) {
+      if ((toggleref.current ?? document).contains(e.target as Node)) {
         setOpenMobile(false);
       }
     };
