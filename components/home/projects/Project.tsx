@@ -5,7 +5,8 @@ import { useEffect, useRef, useState } from "react";
 import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
 import { ProjectModal } from "./ProjectModal";
 import styles from "./projects.module.scss";
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 interface Props {
   modalContent: JSX.Element;
   description: string;
@@ -57,8 +58,9 @@ export const Project = ({
           onClick={() => setIsOpen(true)}
           className={styles.projectImage}
         >
-          <img
+          <LazyLoadImage
             src={imgSrc}
+            effect="blur"
             alt={`An image of the ${title} project.`}
           />
         </div>
