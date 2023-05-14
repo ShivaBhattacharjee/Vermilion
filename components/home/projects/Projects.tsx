@@ -48,7 +48,7 @@ const projects = [
   {
     title: "Vermilion",
     imgSrc: "/project-imgs/portfolio.png",
-    code: "https://github.com/ShivaBhattacharjee/vermilion-a-portfolio-website",
+    code: "https://github.com/ShivaBhattacharjee/vermilion",
     projectLink: "https://immashiva.vercel.app/",
     tech: ["TypeScript","NextJs", "EmailJs","Framer-Motion", "SCSS"],
     description:
