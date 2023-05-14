@@ -5,7 +5,6 @@ import styles from "./home.module.scss";
 import { Heading } from "../nav/Heading";
 import { About } from "./about/About";
 import { Projects } from "./projects/Projects";
-import { Experience } from "./experience/Experience";
 import { Contact } from "./contact/Contact";
 import {ScrollTop} from "../buttons/ScrollTop"
 export const Home = () => {
