@@ -1,5 +1,5 @@
 .scroll{
-    background: red;
+    background: var(--background-light);
     width: 60px;
     height: 60px;
     position: absolute;
@@ -13,7 +13,7 @@
     outline: none;
     border: none;
     svg{
-        color: #fff;
+        color: var(--brand);
         font-size: 30px;
     }
     &:hover{
