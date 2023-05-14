@@ -11,19 +11,19 @@ export const Heading = () => {
   const handleMobileViewClose = () => {
     setOpenMobile(false);
   };
-  let toggleref = useRef();
+  const toggleref = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
-    let handler = (e: MouseEvent) => {
-      if ((toggleref.current ?? document).contains(e.target as Node)) {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (toggleref.current && !toggleref.current.contains(event.target as Node)) {
         setOpenMobile(false);
       }
     };
-    document.addEventListener("mousedown", handler);
-
+    document.addEventListener("mousedown", handleClickOutside);
     return () => {
-      document.removeEventListener("mousedown", handler);
+      document.removeEventListener("mousedown", handleClickOutside);
     };
-  });
+  }, [toggleref]);
 
   return (
     <header className={styles.heading}>
