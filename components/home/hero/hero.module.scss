@@ -1,0 +1,59 @@
+.hero {
+  margin-bottom: 9.6rem;
+
+  @media (max-width: 768px) {
+    margin-bottom: 4.8rem;
+  }
+}
+
+.copyWrapper {
+  position: relative;
+  z-index: 10;
+
+  width: fit-content;
+  margin: 4.8rem 0;
+}
+
+.title {
+  font-size: var(--text-2xl);
+  font-weight: 900;
+  line-height: 1.1;
+
+  span {
+    color: var(--brand);
+  }
+
+  @media (max-width: 768px) {
+    font-size: var(--text-xl);
+  }
+  @media (max-width: 950px) {
+    font-size: var(--text-xl);
+  }
+  @media (max-width: 500px) {
+    font-size: var(--text-lg);
+  }
+}
+
+.subTitle {
+  font-size: var(--text-lg);
+  line-height: 1.1;
+  margin-top: 1.6rem;
+  font-weight: 200;
+
+  span {
+    font-weight: bold;
+    color: var(--brand);
+  }
+  @media (max-width: 950px) {
+    font-size: var(--text-lg);
+  }
+  @media (max-width: 500px) {
+    font-size: var(--text-sm);
+  }
+}
+
+.aboutCopy {
+  margin: 2.4rem 0;
+  max-width: 700px;
+  font-weight: 200;
+}

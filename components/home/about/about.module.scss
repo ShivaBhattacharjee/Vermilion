@@ -1,0 +1,42 @@
+.about {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 2.4rem;
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.aboutText {
+  margin-bottom: 2.4rem;
+  font-weight: 200;
+
+  span{
+    background: var(--background-light);
+    padding: 1rem;
+    border-radius: 0.4rem;
+    font-size: var(--text-md);
+    font-weight: bold;
+    margin-right: 0.6rem;
+    float: left;
+  }
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.linksText {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+
+  font-size: var(--text-sm);
+  color: var(--brand);
+}
+
+
+

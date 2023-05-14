@@ -1,0 +1,111 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100000000;
+
+  height: 100vh;
+  padding: 4.8rem 1.2rem;
+  background: var(--bg-opaque);
+  backdrop-filter: blur(12px);
+
+  overflow-y: scroll;
+
+  display: flex;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.modalCard {
+  width: 100%;
+  max-width: 700px;
+  height: fit-content;
+
+  border-radius: 1.2rem;
+  overflow: hidden;
+
+  background: var(--background-light);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+
+  cursor: auto;
+}
+
+.modalImage {
+  width: 100%;
+}
+
+.modalContent {
+  padding: 2.4rem;
+
+  h4 {
+    font-size: var(--text-lg);
+  }
+}
+
+.modalTech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+
+  font-size: var(--text-xs);
+  color: var(--brand);
+
+  margin: 0.2rem 0 2.4rem;
+}
+
+.suppliedContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  font-size: var(--text-xs);
+}
+
+.modalFooter {
+  margin-top: 2.4rem;
+}
+
+.linksText {
+  font-weight: bold;
+  font-size: var(--text-md);
+  margin-bottom: 0.8rem;
+
+  span {
+    color: var(--brand);
+  }
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+
+  a {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+
+    font-size: var(--text-xs);
+    color: var(--brand);
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.closeModalBtn {
+  background: none;
+  border: none;
+
+  color: var(--text);
+
+  font-size: var(--text-md);
+
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+
+  cursor: pointer;
+}

@@ -1,0 +1,87 @@
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.projectImage {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: var(--background-light);
+  cursor: pointer;
+  position: relative;
+  border-radius: 0.8rem;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    border-radius: 0.4rem;
+  }
+}
+
+.projectCopy {
+  margin: 1.6rem 0;
+}
+
+.projectTitle {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+
+  h4 {
+    font-weight: bold;
+    font-size: var(--text-md);
+    flex-shrink: 0;
+
+    max-width: calc(100% - 150px);
+  }
+
+  a {
+    opacity: 0.75;
+    transition: 0.25s opacity;
+  }
+
+  a:hover {
+    opacity: 1;
+  }
+}
+
+.projectTitleLine {
+  width: 80%;
+  height: 1px;
+  background: var(--text);
+  opacity: 0.3;
+}
+
+.projectDescription {
+  font-weight: 200;
+
+  span {
+    display: inline-block;
+
+    font-size: var(--text-xs);
+    font-weight: 400;
+    color: var(--brand);
+
+    cursor: pointer;
+  }
+
+  span:hover {
+    text-decoration: underline;
+  }
+}
+
+.projectTech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+
+  font-size: var(--text-xs);
+  color: var(--brand);
+
+  margin: 0.8rem 0;
+}

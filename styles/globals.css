@@ -1,0 +1,86 @@
+:root {
+  font-size: 62.5%;
+
+  --background: rgb(17, 17, 17);
+  --bg-opaque: rgb(17, 17, 17, 0.25);
+  --background-light: rgb(35, 35, 35);
+  --background-dark: rgb(8, 8, 8);
+
+  --text: rgb(235, 236, 243);
+  --brand: red;
+
+  --text-xs: 1.6rem;
+  --text-sm: 1.8rem;
+  --text-md: 2.2rem;
+  --text-lg: 3.6rem;
+  --text-xl: 5.6rem;
+  --text-2xl: 9.6rem;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+*::selection {
+  background: var(--brand);
+  color: #fff;
+}
+
+html,
+body {
+  max-width: 100vw;
+  scroll-behavior: smooth;
+  font-size: var(--text-sm);
+}
+
+body {
+  color: var(--text);
+  background: var(--background);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+::-webkit-scrollbar{
+  background-color: var(--background);
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: var(--brand);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.section-wrapper {
+  position: relative;
+  z-index: 10;
+  max-width: 1150px;
+  margin: auto;
+  padding: 9.6rem;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .section-wrapper {
+    padding: 7.2rem 2.4rem;
+  }
+}
+
+.chip {
+  font-size: var(--text-xs);
+  background: var(--background-light);
+  padding: 0.2rem 0.8rem;
+  border-radius: 999px;
+}

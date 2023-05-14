@@ -1,0 +1,44 @@
+.outlineButton {
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+  padding: 1.2rem 2.4rem;
+
+  border: 1px solid var(--brand);
+  background: transparent;
+  color: var(--brand);
+  font-size: var(--text-sm);
+  border-radius: 4px;
+
+  position: relative;
+  z-index: 20;
+
+  overflow: hidden;
+
+  transition: 0.2s color;
+}
+
+.outlineButton::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--brand);
+
+  height: 100%;
+  width: 100%;
+
+  left: -100%;
+  top: -100%;
+
+  transition: 0.2s left, 0.2s top;
+}
+
+.outlineButton:hover {
+  color: var(--background-dark);
+}
+
+.outlineButton:hover::before {
+  left: 0;
+  top: 0;
+}
