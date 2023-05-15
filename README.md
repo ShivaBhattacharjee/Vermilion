@@ -68,7 +68,7 @@ Vermilion is built using upto date technology like NEXTJS SCSS TS  Framer-motion
 
 ![envpastejpg](https://github.com/ShivaBhattacharjee/vermilion/assets/95211406/eda353d1-1f42-475b-86ec-5191cd05e4f9)
 
-create a .env.local file in root directory 
+create an .env.local file in root directory 
 <br/>
 
 ```sh 
