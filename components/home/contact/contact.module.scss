@@ -98,14 +98,22 @@
   }
 
   button {
-    background: transparent;
+    background: var(--brand);
+    text-align: center;
     outline: none;
-    border: 1px solid var(--brand);
-    padding: 15px 30px;
+    border: none;
+    padding: 15px 50px;
     border-radius: 4px;
-    width: 30%;
     font-size: 19px;
     color: #fff;
     cursor: pointer;
+    transition: .3s all ease-in-out;
+    &:hover{
+      background:transparent;
+      border: 2px solid var(--brand);
+    }
+    @media (max-width:400px) {
+      padding: 14px 30px;
+    }
   }
 }
