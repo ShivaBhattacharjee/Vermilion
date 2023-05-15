@@ -76,7 +76,7 @@ NEXT_PUBLIC_SERVICE_ID= Your emailjs SERVICE_ID
 NEXT_PUBLIC_TEMPLATE_ID=  Your emailjs TEMPLATE_ID
 NEXT_PUBLIC_PUBLIC_KEY=  Your Key get it PUBLIC_KEY
 ```
-<h1>Get api keys from <a href="https://www.emailjs.com/">EmailJs</a></h1>
+<h2>Get api keys from <a href="https://www.emailjs.com/">EmailJs</a></h2>
 
 ```sh
   git clone https://github.com/ShivaBhattacharjee/vermilion
