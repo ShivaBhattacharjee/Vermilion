@@ -1,11 +1,9 @@
 <p align="center">
   <a href="https://github.com/ShivaBhattacharjee/vermilion">
-    <img src="https://github.com/ShivaBhattacharjee/vermilion/assets/95211406/9b4c1118-99a4-4818-abfe-5d23b220d723" alt="Logo" width="120px" height="100px">
+    <img src="https://github.com/ShivaBhattacharjee/Vermilion/assets/95211406/92e59bba-4ace-4a4a-9530-d964aad91cc6" alt="Logo" width="120px" height="100px">
   </a>
 <br/>
   <h3 align="center">Vermilion</h3>
-
-
 
   <p align="center">
     A NextJs portfolio website with stunning animation
