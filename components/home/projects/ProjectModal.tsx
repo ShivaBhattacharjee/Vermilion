@@ -5,8 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
+import Image from "next/image";
 interface Props {
   isOpen: boolean;
   setIsOpen: Function;
@@ -50,10 +49,12 @@ export const ProjectModal = ({
         onClick={(e) => e.stopPropagation()}
         className={styles.modalCard}
       >
-        <LazyLoadImage
+        <Image
           className={styles.modalImage}
           src={imgSrc}
-          effect="blur"
+          height={300}
+          width={660}
+          style={{ maxWidth: '100%', height: 'auto' }}
           alt={`An image of the ${title} project.`}
         />
         <div className={styles.modalContent}>

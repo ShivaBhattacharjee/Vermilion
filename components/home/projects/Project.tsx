@@ -4,9 +4,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
 import { ProjectModal } from "./ProjectModal";
-import styles from "./projects.module.scss";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
+import styles from "./projects.module.scss";;
 import Image from "next/image";
 interface Props {
   modalContent: JSX.Element;
@@ -61,8 +59,10 @@ export const Project = ({
         >
           <Image
             src={imgSrc}
-            layout="fill"
             quality={40}
+            height={300}
+            style={{ maxWidth: '100%', height: 'auto' }}
+            width={660}
             alt={`An image of the ${title} project.`}
           />
         </div>

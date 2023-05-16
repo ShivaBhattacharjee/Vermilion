@@ -26,6 +26,8 @@ export const Contact = () => {
           progress: undefined,
           theme: "dark",
         });
+        setMessage('');
+        form.current!.reset();
       }, (error) => {
         toast.error('Something went wrong', {
           position: "top-center",
@@ -82,7 +84,7 @@ export const Contact = () => {
           <Reveal width="100%">
             <form autoComplete="false" className={styles.contantForm} ref={form} onSubmit={sendEmail}>
               <div className={styles.inputBox}>
-                <input type="text" placeholder="Full Name" autoComplete="off" name="to_name" required />
+                <input type="text" placeholder="Full Name" autoComplete="false" name="to_name" required />
                 <input type="email" placeholder="Email Address" autoComplete="false" name="from_name" required />
               </div>
               <textarea placeholder="Your Message"

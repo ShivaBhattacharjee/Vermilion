@@ -2,6 +2,7 @@ import { Reveal } from "@/components/utils/Reveal";
 import { DotGrid } from "./DotGrid";
 import styles from "./hero.module.scss";
 import { OutlineButton } from "../../buttons/OutlineButton";
+import ReactTypingEffect from 'react-typing-effect';
 export const Hero = () => {
   return (
     <section className={`section-wrapper ${styles.hero}`}>
@@ -13,7 +14,13 @@ export const Hero = () => {
         </Reveal>
         <Reveal>
           <h2 className={styles.subTitle}>
-            I&apos;m a <span>Full Stack Developer</span>
+            I&apos;m a <span><ReactTypingEffect
+               text={["Full Stack Developer.", "Freelancer.","Gamer."]}
+               speed={40}
+               eraseSpeed={40}
+               eraseDelay={900}
+               typingDelay={300}
+            /></span>
           </h2>
         </Reveal>
         <Reveal>
