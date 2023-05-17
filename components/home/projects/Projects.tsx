@@ -27,13 +27,21 @@ const projects = [
       "Animetrix is a project that utilizes the Anilist platform to obtain information on various anime titles, and it combines this data with the Gogoanime API to provide ad-free streaming of anime content.",
     modalContent: (
       <>
-      <p>AnimeTrix is an anime streaming website built using react js , expressjs , mongoDB and nodejs the website features a wide variety of shows and movies and many more features</p>
-      <p>AnimeTrix offers an anime image search feature which lets users to know the source of the anime with the help of a screenshot</p>
-      <p>Get anime airing date and time on the home screen </p>
-      <p>Ai chat bot which engage with users and have a conversation with them and suggest anime users can also copy the response</p>
-      <p>Streaming is paired with art player to offer an ad free streaming experience</p>
-      <p>Users can create an account to save their watch history create bookmark and comment on the anime using our custom comment box</p>
-      <p>Users can filter out anime based on genre</p>
+        <p>
+          Anime Trix is an anime streaming / downloading site that offers a vast collection of anime shows for streaming and downloading.
+        </p>
+        <p>
+          With a user-friendly interface, you can easily find your favorite anime shows and watch them in high-definition quality.
+        </p>
+        <p>
+          Our platform is updated regularly with the latest anime episodes, so you can stay up-to-date with your favorite shows.
+        </p>
+        <p>
+          Anime Trix is the go-to destination for anime lovers who want to watch their favorite shows anytime, anywhere.
+        </p>
+        <p>
+          AnimTrix is hosted in vercel
+        </p>
       </>
     ),
   },
