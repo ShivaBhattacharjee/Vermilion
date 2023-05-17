@@ -15,11 +15,11 @@ export const Hero = () => {
         <Reveal>
           <h2 className={styles.subTitle}>
             I&apos;m a <span><ReactTypingEffect
-               text={["Full Stack Developer.", "Freelancer.","Gamer."]}
-               speed={40}
-               eraseSpeed={40}
-               eraseDelay={900}
-               typingDelay={300}
+              text={["Full Stack Developer.", "Freelancer.", "Gamer."]}
+              speed={40}
+              eraseSpeed={40}
+              eraseDelay={900}
+              typingDelay={300}
             /></span>
           </h2>
         </Reveal>
