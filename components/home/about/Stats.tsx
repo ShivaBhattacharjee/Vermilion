@@ -46,6 +46,7 @@ export const Stats = () => {
             <span className="chip">Netlify</span>
             <span className="chip">Railway</span>
             <span className="chip">Postman</span>
+            <span className="chip">Docker</span>
           </div>
         </div>
       </Reveal>
