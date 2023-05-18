@@ -87,7 +87,7 @@ NEXT_PUBLIC_PUBLIC_KEY=  Your emailjs PUBLIC_KEY
   
 ```
 
-## Host your own 
+## Host your own (get enviroment variables from emailjs)
 * ## Vercel
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FShivaBhattacharjee%2Fvermilion)
