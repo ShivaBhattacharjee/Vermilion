@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import styles from "./dotgrid.module.scss";
 import anime from "animejs";
 
@@ -5,9 +6,7 @@ export const DotGrid = () => {
   const GRID_WIDTH = 25;
   const GRID_HEIGHT = 20;
 
-  const dots = [];
-
-  const handleDotClick = (e: any) => {
+  const animateDots = (startIndex) => {
     anime({
       targets: ".dot-point",
       scale: [
@@ -24,10 +23,22 @@ export const DotGrid = () => {
       ],
       delay: anime.stagger(100, {
         grid: [GRID_WIDTH, GRID_HEIGHT],
-        from: e.target.dataset.index,
+        from: startIndex,
       }),
     });
   };
+
+  useEffect(() => {
+    animateDots(0); // Start animation from the first dot by default
+  }, []);
+
+  const handleDotClick = (e) => {
+    const startIndex = parseInt(e.target.dataset.index);
+    animateDots(startIndex);
+    // Your click handler code here
+  };
+
+  const dots = [];
 
   let index = 0;
 

@@ -70,5 +70,29 @@ const projects = [
       </>
     ),
   },
-
+  {
+    title: "Muxik",
+    imgSrc: "/project-imgs/Muxik.png",
+    code: "https://github.com/ShivaBhattacharjee/Muxik",
+    projectLink: "https://muxik.netlify.app/",
+    tech: ["JavaScript", "ReactJs", "Vite", "Framer-Motion", "TailwindCSS"],
+    description:
+      "Muxik is a music streaming and downloading platform developed on ReactJs. It provides users with a wide variety of songs, albums, playlists, and artists across different genres. Users can enjoy a seamless and immersive music listening experience through the platform.",
+    modalContent: (
+      <>
+        <p>
+          Muxik is a music streaming / downloading site that offers a vast library for streaming and downloading. With a user-friendly interface, you can easily find your favorite song and stream them in high-definition quality. Our platform is updated regularly with the songs, so you can stay up-to-date with your favorite songs.Muxik is the go-to destination for audiophiles who want to stream or download their favorite music anytime, anywhere
+        </p>
+        <p>
+          Users can conveniently batch download their favorite music and enjoy it offline, making it perfect for road trips or areas with limited internet connectivity. Muxik's Progressive Web Application (PWA) support ensures seamless access across devices without the need for separate installations.
+        </p>
+        <p>
+          Enhancing the listening experience, Muxik allows users to adjust volume levels, auto-skip songs, and repeat tracks with ease. Personalized song recommendations and curated top playlists help users discover new music and diversify their library. With Muxik, users can enjoy a tailored and immersive audio experience, thanks to its volume change feature that adapts to individual preferences.
+        </p>
+        <p>
+          In summary, Muxik offers a convenient solution for music lovers. It provides batch downloading and offline streaming capabilities, along with features like PWA support, volume control, auto-skip, recommended songs, top playlists, and repeat functionality. With Muxik, users can effortlessly enjoy their favorite music, discover new tracks, and personalize their listening experience.
+        </p>
+      </>
+    ),
+  },
 ];
