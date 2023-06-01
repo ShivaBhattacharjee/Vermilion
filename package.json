@@ -1,7 +1,7 @@
 {
-  "name": "steam",
-  "version": "0.1.0",
-  "private": true,
+  "name": "Portfolio-Shiva",
+  "version": "1.0",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
