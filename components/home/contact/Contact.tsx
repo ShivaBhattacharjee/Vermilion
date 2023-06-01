@@ -6,6 +6,7 @@ import Link from "next/link";
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { OutlineButton } from "@/components/buttons/OutlineButton";
 
 export const Contact = () => {
   const [message, setMessage] = useState('');
@@ -93,9 +94,9 @@ export const Contact = () => {
                 name="message"
                 value={message}
                 onChange={handleMessageChange}></textarea>
-              <button type="submit">
-                Send
-              </button>
+              <OutlineButton>
+                Send Message
+              </OutlineButton>
             </form>
 
           </Reveal>
