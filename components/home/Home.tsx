@@ -6,7 +6,7 @@ import { Heading } from "../nav/Heading";
 import { About } from "./about/About";
 import { Projects } from "./projects/Projects";
 import { Contact } from "./contact/Contact";
-import {ScrollTop} from "../buttons/ScrollTop"
+import { ScrollTop } from "../buttons/ScrollTop"
 export const Home = () => {
   return (
     <>
@@ -18,14 +18,17 @@ export const Home = () => {
           <About />
           <Projects />
           <Contact />
-          <ScrollTop/>
+          <ScrollTop />
           <div
             style={{
-              height: "200px",
+              height: "100px",
+              textAlign:"center",
               background:
                 "linear-gradient(180deg, var(--background), var(--background-dark))",
             }}
-          />
+          >
+            <h3>Thank You for visiting</h3>
+          </div>
         </main>
       </div>
     </>
