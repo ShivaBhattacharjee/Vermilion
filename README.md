@@ -27,7 +27,7 @@
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
-  * [Hosting](#host-your-own)
+  * [Hosting](#hosting)
 * [Contributing](#contributing)
 * [Issue Template](#raising-an-issue)
 * [License](#license)
@@ -77,17 +77,23 @@ NEXT_PUBLIC_PUBLIC_KEY=  Your emailjs PUBLIC_KEY
 <h2>Get api keys from <a href="https://www.emailjs.com/">EmailJs</a></h2>
 
 ```sh
+  
   git clone https://github.com/ShivaBhattacharjee/vermilion
-  
+ ```
+ ```
   cd vermilion
-  
+  ```
+  ```
   npm install
-  
+  ```
+  ```
   npm run dev
-  
-```
+  ```
 
-## Host your own (get enviroment variables from emailjs)
+
+
+## Hosting 
+(get enviroment variables from emailjs)
 * ## Vercel
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FShivaBhattacharjee%2Fvermilion)
