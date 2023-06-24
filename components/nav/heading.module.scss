@@ -20,10 +20,13 @@
     transition: 0.9s ease-in-out;
     position: relative;
     cursor: pointer;
-
+    display: none;
     svg{
       color: red;
       font-size: 40px;
+    }
+    @media (max-width:900px) {
+      display: block;
     }
     .navbarMobileOpen{
       display: none;
