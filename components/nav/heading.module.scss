@@ -25,17 +25,6 @@
       color: red;
       font-size: 40px;
     }
-    span {
-      display: none;
-      background: red;
-      width: 35px;
-      height: 3px;
-      margin: 8px;
-      transition: 0.5s ease-in-out;
-      @media screen and (max-width:900px) {
-        display: block;
-      }
-    }
     .navbarMobileOpen{
       display: none;
     }
