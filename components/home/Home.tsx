@@ -22,12 +22,10 @@ export const Home = () => {
           <div
             style={{
               height: "100px",
-              textAlign:"center",
               background:
                 "linear-gradient(180deg, var(--background), var(--background-dark))",
             }}
           >
-            <h3>Thank You for visiting</h3>
           </div>
         </main>
       </div>

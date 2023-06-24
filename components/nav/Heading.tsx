@@ -2,6 +2,7 @@ import styles from "./heading.module.scss";
 import { MyLinks } from "./components/MyLinks";
 import { useState, useEffect, useRef } from "react";
 import { AiOutlineClose } from "react-icons/ai"
+import {RiMenuUnfoldLine} from "react-icons/ri"
 export const Heading = () => {
   const [openMobile, setOpenMobile] = useState(false);
   const [selected, setSelected] = useState("");
@@ -32,11 +33,7 @@ export const Heading = () => {
         {openMobile ? (
           <AiOutlineClose onClick={handleMobileViewClose} />
         ) : (
-          <div onClick={handleMobileViewOpen}>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
+            <RiMenuUnfoldLine onClick={handleMobileViewOpen}/>
         )
         }
         <div

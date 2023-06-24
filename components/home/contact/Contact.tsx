@@ -94,6 +94,7 @@ export const Contact = () => {
                 name="message"
                 value={message}
                 onChange={handleMessageChange}></textarea>
+                <br /><br />
               <OutlineButton>
                 Send Message
               </OutlineButton>
