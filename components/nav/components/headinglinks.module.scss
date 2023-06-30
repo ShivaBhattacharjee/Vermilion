@@ -1,9 +1,10 @@
 .links {
   display: flex;
   gap: 1.6rem;
+  flex-wrap: wrap;
   padding-top: 10px;
   position: absolute;
-  right: 0;
+  right: 0px;
   padding-right: 4%;
 
   a {

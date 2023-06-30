@@ -16,7 +16,6 @@
   font-weight: bold;
 
   .mobile {
-    background: transparent;
     transition: 0.9s ease-in-out;
     position: relative;
     cursor: pointer;
@@ -41,6 +40,7 @@
       nav{
         display: flex;
         gap: 20px;
+        align-items: center;
         flex-direction: column;
       }
       @media (max-width:900px) {

@@ -99,13 +99,18 @@
   background: none;
   border: none;
 
-  color: var(--text);
+  color: var(--brand);
 
-  font-size: var(--text-md);
+  font-size: var(--text-xl);
 
   position: absolute;
-  top: 1.2rem;
-  right: 1.2rem;
+  top: 3.2rem;
+  right: 1.9rem;
 
   cursor: pointer;
+  @media(max-width:790px){
+    font-size: var(--text-lg);
+    top: 1rem;
+    right: 1.2rem;
+  }
 }
