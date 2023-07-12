@@ -15,7 +15,7 @@ export const Hero = () => {
         <Reveal>
           <h2 className={styles.subTitle}>
             I&apos;m a <span><ReactTypingEffect
-              text={["Full Stack Developer.", "Freelancer.", "DevOps enthusiast"]}
+              text={["Full Stack Developer.", "Freelancer.", "DevOps enthusiast."]}
               speed={40}
               eraseSpeed={40}
               eraseDelay={900}
