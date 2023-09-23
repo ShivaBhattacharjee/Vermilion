@@ -119,7 +119,7 @@ const projects = [
           <b>Beginner-Friendly</b>: With an easy-to-learn syntax and grammar rules that forgive common mistakes, Synthia is the ideal choice for those new to programming and experienced developers looking for productivity.
         </li>
         <li>
-        <b>Built on Rust</b>: Benefit from Rust's memory safety and ecosystem while enjoying the simplicity of Synthia's syntax.
+        <b>Built on Rust</b>: Benefit from Rust&apos; memory safety and ecosystem while enjoying the simplicity of Synthia&apos;s syntax.
         </li>
       </>
     ),
