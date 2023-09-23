@@ -16,6 +16,7 @@
   justify-content: center;
 
   cursor: pointer;
+  list-style-type: decimal-leading-zero;
 }
 
 .modalCard {
@@ -60,6 +61,7 @@
   flex-direction: column;
   gap: 1.2rem;
   font-size: var(--text-xs);
+  list-style-type: decimal;
 }
 
 .modalFooter {

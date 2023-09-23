@@ -59,10 +59,10 @@ export const Project = ({
         >
           <Image
             src={imgSrc}
-            quality={40}
-            height={300}
+            quality={60}
+            height={200}
             style={{ maxWidth: '100%', height: 'auto' }}
-            width={660}
+            width={630}
             alt={`An image of the ${title} project.`}
           />
         </div>
@@ -76,9 +76,13 @@ export const Project = ({
                 <AiFillGithub size="2.8rem" />
               </Link>
 
-              <Link href={projectLink} target="_blank" rel="nofollow">
-                <AiOutlineExport size="2.8rem" />
-              </Link>
+              {
+                projectLink != "" && (
+                  <Link href={projectLink} target="_blank" rel="nofollow">
+                    <AiOutlineExport size="2.8rem" />
+                  </Link>
+                )
+              }
             </div>
           </Reveal>
           <Reveal>

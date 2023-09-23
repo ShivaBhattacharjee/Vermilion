@@ -95,4 +95,33 @@ const projects = [
       </>
     ),
   },
+
+  {
+    title: "Synthia",
+    imgSrc: "/project-imgs/Synthia.png",
+    code: "https://github.com/ShivaBhattacharjee/Synthia",
+    projectLink: "",
+    tech: ["Rust"],
+    description:
+      "Synthia is a lightweight and beginner-friendly interpreted programming language developed in Rust. With a simple, intuitive syntax and a focus on ease of use, Synthia is perfect for both newcomers to programming and experienced developers looking for a flexible scripting language",
+    modalContent: (
+      <>
+        <p>
+          Synthia is a powerful and user-friendly programming language designed to make coding accessible to all skill levels. Built on top of Rust, it combines the blazing speed of Rust with a forgiving grammar and intuitive syntax. Say goodbye to complex rules and hello to rapid development.
+        </p>
+        <h3>
+          Synthia Offers
+        </h3>
+        <li>
+          <b>Lightning-Fast Execution</b>: Synthia harnesses the speed and performance of Rust, making it significantly faster than Python for a wide range of applications.
+        </li>
+        <li>
+          <b>Beginner-Friendly</b>: With an easy-to-learn syntax and grammar rules that forgive common mistakes, Synthia is the ideal choice for those new to programming and experienced developers looking for productivity.
+        </li>
+        <li>
+        <b>Built on Rust</b>: Benefit from Rust's memory safety and ecosystem while enjoying the simplicity of Synthia's syntax.
+        </li>
+      </>
+    ),
+  },
 ];
