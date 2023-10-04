@@ -25,6 +25,7 @@ export const Stats = () => {
             <span className="chip">React</span>
             <span className="chip">NextJs</span>
             <span className="chip">Redux</span>
+            <span className="chip">Redis</span>
             <span className="chip">NodeJS</span>
             <span className="chip">Express</span>
             <span className="chip">MongoDB</span>
