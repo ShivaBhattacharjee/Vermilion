@@ -1,0 +1,43 @@
+#include <iostream>
+#include <vector>
+#include "solution.h" // replace with the actual file name of your solution
+
+using namespace std;
+
+void test(vector<int> prices, int k, int expected) {
+    Solution s;
+    int result = s.maxProfit(k, prices);
+    if (result == expected) {
+        cout << "PASS" << endl;
+    } else {
+        cout << "FAIL: expected " << expected << ", but got " << result << endl;
+    }
+}
+
+int main() {
+    // Test Case 1
+    vector<int> prices1 = {7, 1, 5, 3, 6, 4};
+    int k1 = 2;
+    int expected1 = 7;
+    test(prices1, k1, expected1);
+
+    // Test Case 2
+    vector<int> prices2 = {1, 2, 3, 4, 5};
+    int k2 = 1;
+    int expected2 = 4;
+    test(prices2, k2, expected2);
+
+    // Test Case 3
+    vector<int> prices3 = {7, 6, 4, 3, 1};
+    int k3 = 1;
+    int expected3 = 0;
+    test(prices3, k3, expected3);
+
+    // Test Case 4
+    vector<int> prices4 = {3, 2, 6, 5, 0, 3};
+    int k4 = 2;
+    int expected4 = 7;
+    test(prices4, k4, expected4);
+
+    return 0;
+}

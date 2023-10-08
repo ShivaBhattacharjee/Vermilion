@@ -20,9 +20,9 @@ const projects = [
   {
     title: "AnimeTrix",
     imgSrc: "/project-imgs/animetrix-website.png",
-    code: "https://github.com/ShivaBhattacharjee/AnimeTrix",
-    projectLink: "https://animetrix.vercel.app/",
-    tech: ["Javascript", "ReactJs", "CSS", "MongoDb", "Express", "NodeJs"],
+    code: "https://github.com/ShivaBhattacharjee/AnimeTrix-next",
+    projectLink: "https://animetrix.xyz/",
+    tech: ["Typescript", "NextJs", "TailwindCss", "MongoDb"],
     description:
       "Animetrix is a project that utilizes the Anilist platform to obtain information on various anime titles, and it combines this data with the Gogoanime API to provide ad-free streaming of anime content.",
     modalContent: (
